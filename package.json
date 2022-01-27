@@ -1,0 +1,23 @@
+{
+  "name": "@my-utils/ali-oss-publish",
+  "version": "1.0.0",
+  "description": "this is a ali oss utils",
+  "author": "winnerwly<winnerwly@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/my-utils/ali-oss-publish"
+  },
+  "homepage": "https://github.com/my-utils/ali-oss-publish/",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ali-oss": "^6.16.0",
+    "fs": "^0.0.1-security"
+  }
+}
